@@ -16,7 +16,7 @@ namespace _07_Sum_Avg_Min_Max_Count
         };
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            //git changes denemesidir.
         }
     }
 }
