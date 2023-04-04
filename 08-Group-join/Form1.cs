@@ -48,7 +48,7 @@ namespace _08_Group_join
                 yeniPersonelListesi.Add(personelSatir);
             }
 
-            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = null;//Branch 3 deðiþikliði denemesi.
             dataGridView1.DataSource = yeniPersonelListesi;//Deðiþtirildi.
             //Ekleme ddenemeesi
         }
