@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-EntityMappingKavrami", "01-EntityMappingKavrami\01-EntityMappingKavrami.csproj", "{317A25F8-54F9-40BA-882B-AC7D69E60E7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-EntityMappingKavrami", "01-EntityMappingKavrami\01-EntityMappingKavrami.csproj", "{317A25F8-54F9-40BA-882B-AC7D69E60E7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-LinqSorgu", "02-LinqSorgu\02-LinqSorgu.csproj", "{F05188D8-146A-4734-8C5D-67F1784C1FA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-LinqSorgu", "02-LinqSorgu\02-LinqSorgu.csproj", "{F05188D8-146A-4734-8C5D-67F1784C1FA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-ExtensionMethodIleLinq", "03-ExtensionMethodIleLinq\03-ExtensionMethodIleLinq.csproj", "{8C94CA77-FBFA-406C-8683-90C1448A4B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-ExtensionMethodIleLinq", "03-ExtensionMethodIleLinq\03-ExtensionMethodIleLinq.csproj", "{8C94CA77-FBFA-406C-8683-90C1448A4B3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-Any_All_Contains2", "04-Any_All_Contains2\04-Any_All_Contains2.csproj", "{7044EEC8-4CDE-45F3-A3FF-4C7BE26E0D61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-Any_All_Contains2", "04-Any_All_Contains2\04-Any_All_Contains2.csproj", "{7044EEC8-4CDE-45F3-A3FF-4C7BE26E0D61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-First_Single_Last", "05-First_Single_Last\05-First_Single_Last.csproj", "{EA6578E4-3C9B-4F45-A579-39A1DFEBD117}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-First_Single_Last", "05-First_Single_Last\05-First_Single_Last.csproj", "{EA6578E4-3C9B-4F45-A579-39A1DFEBD117}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Take_Skip_Distinct", "06-Take_Skip_Distinct\06-Take_Skip_Distinct.csproj", "{7D788DDB-537F-44ED-829D-06009959F427}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-Take_Skip_Distinct", "06-Take_Skip_Distinct\06-Take_Skip_Distinct.csproj", "{7D788DDB-537F-44ED-829D-06009959F427}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Sum_Avg_Min_Max_Count", "07-Sum_Avg_Min_Max_Count\07-Sum_Avg_Min_Max_Count.csproj", "{A86238F0-8C99-46EC-BA67-24534552D933}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-Sum_Avg_Min_Max_Count", "07-Sum_Avg_Min_Max_Count\07-Sum_Avg_Min_Max_Count.csproj", "{A86238F0-8C99-46EC-BA67-24534552D933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-Group-join", "08-Group-join\08-Group-join.csproj", "{4D450BC1-015E-41B1-A1EE-CCB78F84DED4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{A86238F0-8C99-46EC-BA67-24534552D933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A86238F0-8C99-46EC-BA67-24534552D933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A86238F0-8C99-46EC-BA67-24534552D933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D450BC1-015E-41B1-A1EE-CCB78F84DED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D450BC1-015E-41B1-A1EE-CCB78F84DED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D450BC1-015E-41B1-A1EE-CCB78F84DED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D450BC1-015E-41B1-A1EE-CCB78F84DED4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
