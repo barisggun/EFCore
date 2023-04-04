@@ -50,7 +50,7 @@ namespace _08_Group_join
 
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = yeniPersonelListesi;
-
+            //Ekleme ddenemeesi
         }
 
         private void btnPersonelDepartmanBilgileri_Click(object sender, EventArgs e)
