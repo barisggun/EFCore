@@ -49,7 +49,7 @@ namespace _08_Group_join
             }
 
             dataGridView1.DataSource = null;
-            dataGridView1.DataSource = yeniPersonelListesi;
+            dataGridView1.DataSource = yeniPersonelListesi;//Deðiþtirildi.
             //Ekleme ddenemeesi
         }
 
