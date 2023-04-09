@@ -1,0 +1,11 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace MVC_Odev01_Products.Models;
+
+public partial class MyUser
+{
+    public int Id { get; set; }
+
+    public string Fullname { get; set; } = null!;
+}
